@@ -1,0 +1,45 @@
+.info-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tool-bar {
+    position: absolute;
+
+}
+.tool-bar .goBack img{
+    width: 30px;
+}
+
+.poster {
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buy-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buy-area .price{
+    color: #fb242c;
+    font-weight: 600;
+}
+.buy-area .buy{
+    background: #fb242c;
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.buy-area .like img{
+    width: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.mine-page {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.mine-page .tool-bar {
+    position: absolute;
+}
+.ipts{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-page-item{
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.info-page-item label{
+    display: block;
+    margin-bottom: 10px;
+}
+.ipts input,.ipts select{
+    width: 80%;
+    height: 30px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: none;
+    background: none;
+    border-bottom:1px solid ;
+}

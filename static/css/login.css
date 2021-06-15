@@ -1,0 +1,100 @@
+.login-page-container {
+    width: 100%;
+    height: 100vh;
+    background: url("../media/img/login_bgc.jpg");
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+
+.register-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-page-index {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.other-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-btns img {
+    width: 30px;
+}
+
+
+.to-register, .login-btn,.re-btn {
+    background: #f08c49;
+    margin-bottom: 20px;
+}
+
+.to-login {
+    background: #ffffff;
+    color: black;
+}
+
+.to-login, .to-register, .login-btn,.re-btn {
+    width: 420px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ipt {
+    width: 60%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ipt input {
+    width: 100%;
+    height: 45px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: none;
+    background: none;
+    caret-color: #666666;
+}
+
+.ipt input::-webkit-input-placeholder {
+    color: white;
+}
+.tool-bar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: left;
+    padding: 10px;
+}
+
+.tool-bar .goBack img{
+    width: 20px;
+    cursor: pointer;
+}
+.intro-item{
+    line-height: 30px;
+    padding-left: 150px;
+}

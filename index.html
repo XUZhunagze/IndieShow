@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IndieShow</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/login.css">
+    <link rel="stylesheet" href="./static/css/home.css">
+    <link rel="stylesheet" href="./static/css/info.css">
+    <link rel="stylesheet" href="./static/css/mine.css">
+</head>
+<body>
+<div class="app">
+
+    <!--    登录注册页面   -->
+    <div class="login-page-container" style="display:none">
+        <div class="login-page-index" style="display: flex">
+            <div class="page-item" style="width:60%;text-align: left">
+                <h1>
+                    欢迎来到，<br/> 乐海
+                </h1>
+            </div>
+            <div class="page-item" style="width:60%;text-align: left">
+                <div class="intro-item">
+                    在这里，你可以通过音乐找到爱情，我反正没找到
+                </div>
+                <div class="intro-item">
+                    在这里，你可以通过音乐找到爱情，我反正没找到
+                </div>
+                <div class="intro-item">
+                    在这里，你可以通过音乐找到爱情，我反正没找到
+                </div>
+                <div class="intro-item">
+                    在这里，你可以通过音乐找到爱情，我反正没找到
+                </div>
+            </div>
+            <div class="page-item">
+                <div class="to-register">注册</div>
+                <div class="to-login">登录</div>
+            </div>
+            <div class="page-item">
+                <p>选择其他方式</p>
+                <div class="other-btns">
+                    <img src="./static/icon/qq.png" alt="">
+                    <img src="./static/icon/wechat.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="register-page" style="display: none">
+            <div class="tool-bar">
+                <div class="goBack">
+                    <img src="./static/icon/arrow_left.png" alt="">
+                </div>
+            </div>
+            <h3>注册</h3>
+            <div class="name ipt"><input type="text" placeholder="昵称"></div>
+            <div class="email ipt"><input type="text" placeholder="邮箱"></div>
+            <div class="password ipt"><input type="password" placeholder="密码"></div>
+            <div class="re-btn">
+                注册
+            </div>
+            <p>
+                <a href="">注册遇到问题？</a>
+            </p>
+        </div>
+        <div class="login-page" style="display: none">
+            <div class="tool-bar">
+                <div class="goBack">
+                    <img src="./static/icon/arrow_left.png" alt="">
+                </div>
+            </div>
+            <h3>登录</h3>
+            <div class="email ipt"><input type="text" placeholder="账号"></div>
+            <div class="password ipt"><input type="password" placeholder="密码"></div>
+            <div class="login-btn">
+                登录
+            </div>
+            <p>
+                <a href="">登录遇到问题？</a>
+            </p>
+            <div class="others">
+                <p>选择其他方式</p>
+                <div class="other-btns">
+                    <img src="./static/icon/qq.png" alt="">
+                    <img src="./static/icon/wechat.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  首页  -->
+    <div class="home-page" style="display: none">
+        <div class="top-bar">
+            <div class="search-bar">
+                <img src="./static/icon/search_icon.png" alt="">
+                <input type="text" placeholder="搜索演出">
+            </div>
+            <div class="mine-icon">
+                <img src="./static/icon/mine.png" alt="">
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>精选演出信息</h2>
+            <h4 style="color: #666666">THE BEST PICK</h4>
+            <div class="recommend"></div>
+
+        </div>
+    </div>
+
+
+    <div class="info-page" style="display: none">
+
+
+    </div>
+
+    <div class="mine-page" style="display: none">
+        <div class="tool-bar">
+            <div class="goBack">
+                <img src="./static/icon/arrow.png" alt="">
+            </div>
+        </div>
+        <div class="ipts">
+            <div class="info-page-item">
+                <label for="name">昵称:</label>
+                <input type="text" value="KEYI" id="name">
+            </div>
+            <div class="info-page-item">
+                <label for="intro">简介:</label>
+                <input type="text" id="intro">
+            </div>
+            <div class="info-page-item">
+                <label for="sex">性别:</label>
+                <select name="" id="sex">
+                    <option value="famale">女</option>
+                    <option value="male">男</option>
+                </select>
+            </div>
+            <div class="info-page-item">
+                <label for="birth">生日:</label>
+                <input type="date" id="birth">
+            </div>
+            <div class="info-page-item">
+                <label for="location">所在地:</label>
+                <input type="text" id="location">
+            </div>
+            <div class="info-page-item">
+                <label for="hometown">家乡:</label>
+                <input type="text" id="hometown">
+            </div>
+            <div class="info-page-item">
+                <label for="status">感情状况:</label>
+                <input type="text" id="status">
+            </div>
+        </div>
+
+    </div>
+    <!--    utils   -->
+    <script src="./static/js/rem.js"></script>
+    <script src="./static/js/data.js"></script>
+
+    <script src="./static/js/utils.js"></script>
+    <script src="./static/js/onload.js"></script>
+
+
+    <!--    plugin  -->
+
+    <!--    page    -->
+    <script src="./static/js/loginPage.js"></script>
+    <script src="./static/js/home.js"></script>
+    <script src="./static/js/mine.js"></script>
+
+
+</div>
+</body>
+</html>
